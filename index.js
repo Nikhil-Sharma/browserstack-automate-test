@@ -9,8 +9,8 @@ var capabilities = {
  'os' : 'Windows',
  'name': 'test 101', // test name
  'build': 'BStack Nikhil Testing 101', // CI/CD job or build name
- 'browserstack.user' : 'nikhilsharma31',
- 'browserstack.key' : 'rTMqV2dudahjfBzSZ8xT'
+ 'browserstack.user' : 'BROWSERSTACK_USERNAME',
+ 'browserstack.key' : 'BROWSERSTACK_ACCESS_KEY'
 }
 
 var driver = new webdriver.Builder().usingServer('https://hub-cloud.browserstack.com/wd/hub').
