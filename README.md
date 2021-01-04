@@ -1,1 +1,0 @@
-# browserstack-automate-test
