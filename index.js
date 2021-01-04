@@ -8,7 +8,7 @@ var capabilities = {
  'browser_version' : 'latest',
  'os' : 'Windows',
  'name': 'test 101', // test name
- 'build': 'BStack Nikhil Testing 101', // CI/CD job or build name
+ 'build': 'BROWSERSTACK_BUILD_NAME', // CI/CD job or build name
  'browserstack.user' : 'BROWSERSTACK_USERNAME',
  'browserstack.key' : 'BROWSERSTACK_ACCESS_KEY'
 }
