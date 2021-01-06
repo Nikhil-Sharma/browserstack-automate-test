@@ -27,7 +27,7 @@ var browserstack = require('browserstack-local');
 var bs_local = new browserstack.Local();
 
 // replace <browserstack-accesskey> with your key. You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
-var bs_local_args = { 'key': '<browserstack-accesskey>' };
+var bs_local_args = { 'key': '<browserstack.key>' };
 
 // starts the Local instance with the required arguments
 bs_local.start(bs_local_args, function() {
