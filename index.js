@@ -17,10 +17,7 @@ var capabilities = {
 	"browserstack.key" : accessKey
 };
 
-var driver = new webdriver.Builder().
-  usingServer("https://hub-cloud.browserstack.com/wd/hub").
-  withCapabilities(capabilities).
-  build();
+driver = new webdriver.Builder().usingServer('http://hub.browserstack.com/wd/hub').withCapabilities(capabilities).build();
 
 var browserstack = require('browserstack-local');
 
