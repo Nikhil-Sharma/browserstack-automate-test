@@ -3,6 +3,8 @@ var accessKey = process.env.BROWSERSTACK_ACCESS_KEY;
 var buildName = process.env.BROWSERSTACK_BUILD_NAME;
 var browserstackLocal = process.env.BROWSERSTACK_LOCAL;
 var browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER;
+var webdriver = require('selenium-webdriver');
+
 
 var capabilities = {
 	"os" : "Windows",
