@@ -27,5 +27,5 @@ driver = new webdriver.Builder().usingServer('http://hub.browserstack.com/wd/hub
 var browserstack = require('browserstack-local');
 
 driver.get('http://localhost:8080/')
-print(driver.title)
+console.log(driver.getTitle())
 driver.quit()
