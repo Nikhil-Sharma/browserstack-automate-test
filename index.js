@@ -13,7 +13,7 @@ var capabilities = {
 	"browser_version" : "latest",
 	"name": "BStack -[Jenkins] Localtesting", // test name
 	"build" : buildName, // CI/CD job name using BROWSERSTACK_BUILD_NAME env variable
-	"browserstack.local" : True,
+	"browserstack.local" : browserstackLocal,
 	"browserstack.localIdentifier" : browserstackLocalIdentifier,
 	"browserstack.user" : username,
 	"browserstack.key" : accessKey
