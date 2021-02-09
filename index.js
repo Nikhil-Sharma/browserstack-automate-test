@@ -9,12 +9,11 @@ var browserstackLocalIdentifier = process.env.BROWSERSTACK_LOCAL_IDENTIFIER;
 
 
 var capabilities = {
-	'os_version' : '10',
-	'resolution' : '1920x1080',
-	'browserName' : 'Chrome',
-	'browser_version' : 'latest',
-	'os' : 'Windows',
-	"name": "BStack -[Jenkins] Localtesting", // test name
+	'device' : 'iPhone 11',
+	'realMobile' : 'true',
+	'os_version' : '14.0',
+	'browserName' : 'iPhone',
+	"name": "BStack -[iPhone] Localtesting", // test name
 	"build" : buildName, // CI/CD job name using BROWSERSTACK_BUILD_NAME env variable
 	"browserstack.local" : browserstackLocal,
 	"browserstack.localIdentifier" : browserstackLocalIdentifier,
